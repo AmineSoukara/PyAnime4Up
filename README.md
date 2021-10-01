@@ -4,7 +4,7 @@
 ## ⚙ Installation :
 You Can Simply Install The Library From PyPI With This Command:
 ```bash
-pip3 install PyAnime4Up
+pip3 install PyAnime4Up #SOON
 ```
 
 ## ❓ Usage :
