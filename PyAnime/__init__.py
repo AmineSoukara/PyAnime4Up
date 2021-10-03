@@ -22,7 +22,6 @@ class Anime:
 
     def search(self, searchQuiery: str):
         """This Function Searches within the website
-        if you want to save the resuts just add another argument --save
         """
         searchq = quote_plus(searchQuiery.lower())
         url = f"{self.__base_url}?search_param=animes&s={searchq}"
