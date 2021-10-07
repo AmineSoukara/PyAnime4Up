@@ -2,6 +2,8 @@
 > This Is A Selenium-less Python Library That Allows You To Interact With Anime4Up
 
 ## ⚙ Installation :
+[![Total Downloads](https://static.pepy.tech/personalized-badge/pyanime4up?period=total&units=none&left_color=black&right_color=blue&left_text=Total-Downloads)](https://pepy.tech/project/pyanime4up)
+
 You Can Simply Install The Library From PyPI With This Command:
 ```bash
 pip3 install PyAnime4Up
