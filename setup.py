@@ -18,7 +18,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 
-VERSION = input("Input The New Version Number You Are Going To Use: ")
+VERSION = '2.2'
 
 setup(
     name="PyAnime4Up",
