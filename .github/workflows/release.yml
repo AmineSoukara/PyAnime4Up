@@ -1,4 +1,4 @@
-name: Build & Release - PyPI
+name: 🆕️ Build & Release - PyPI
 
 on:
   release:
@@ -8,28 +8,28 @@ on:
 
 jobs:
   build-release:
-    name: Build Release
+    name: 🐍 Build Release
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Set Up Python
+      - name: 1️⃣ Set Up Python
         uses: actions/setup-python@v3
         with:
           python-version: '3.x'
-      - name: Install Dependencies
+      - name: 2️⃣ Install Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install build
-      - name: Build Package
+      - name: 3️⃣ Build Package
         run: python -m build
-      - name: Save Artifacts
+      - name: 4️⃣ Save Artifacts
         uses: actions/upload-artifact@v3
         with:
           name: paillier-dist
           path: ./dist
 
   publish-release:
-    name: Publish Release To PyPI
+    name: 📦 Publish Release To PyPI
     needs: [build-release]
     runs-on: ubuntu-latest
 
